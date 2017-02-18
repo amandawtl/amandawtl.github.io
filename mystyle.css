@@ -10,3 +10,27 @@ font-family: verdana;
 margin: auto;   
 }
 
+.myfigure {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+.circle {
+            background-color: rosybrown;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border-radius: 50%;
+        }
+    
+.bar-block {
+            background-color: lightgreen;
+            color: white;
+            text-align: right;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 30px;
+            position: absolute;
+            bottom: 0;
+        }
