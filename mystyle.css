@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+=======
+.bar-blockb {
+color: white;  
+background-color:pink;
+margin: 3px 3px 3px 3px;
+text-align: right;
+font-family: verdana;
+}
+
+.container{
+margin: auto;   
+}
+
+.myfigure {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+
+.circle {
+            background-color: rosybrown;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border-radius: 50%;
+        }
+    
+.bar-block {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 30px;
+            position: absolute;
+            bottom: 0;
+        }
+
+.bar-label {
+            width: 50px;
+            text-align: right;
+        }
+
+ .bar-block-1{
+            width: 100px;
+        }
+>>>>>>> origin/master
