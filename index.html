@@ -1,48 +1,121 @@
-<link type="text/css" rel="stylesheet" href="amandawtl.github.io/mystyle.css">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-Hello,this is Amanda!
-<p style="background-color:lightgrey;color: red;">
-Data Journalism
-</p>
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Amanda Leung Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
 
-<ol>
-  <li><a href="https://amandawtl.github.io/">Homepage</a></li>
-  <li><a href="https://amandawtl.github.io/fancy-blog/">Blog</a></li>
-  <li><a href="https://amandawtl.github.io/homework1/">Homework 1</a></li>
-  <li><a href="https://amandawtl.github.io/twentytwenty-sample/">Before-and-After</a></li>
-</ol>
+<body>
 
-<ul>
-  <li>Mon</li>
-   <li>Tue</li>
-   <li>Wed</li>
-   <li>Thur</li>
-</ul>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="http://datavis.studio/">Amanda Leung</a>
+    </div>
+  </div>
+</nav>
 
-<h1>Large</h1><h2>Medium</h2><h5>Small</h5>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I ?</h3>
+  <img src="https://lumiere-a.akamaihd.net/v1/images/b5e11dc889c5696799a6bd3ec5d819c1f7dfe8b4.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm a Chinese Journalism student.</h3>
+</div>
 
-<p>
-  <a href="https://jour2106.slack.com/" target="_blank"> Slack </a>
-</p>
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Where do I study ?</h3>
+  <p>School of Communication</p>
+  <p>Hong Kong Baptist University</p>
+  <br>
+  <a href="http://www.hkbu.edu.hk/eng/main/index.jsp" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-education"></span> Visit HKBU
+  </a>
+</div>
 
-<p>
-This line is above the graph.
-</p>
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Take a look of my homework !</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Homework 1</p>
+      <a href="https://amandawtl.github.io/homework1/">
+      <img src="https://s-media-cache-ak0.pinimg.com/564x/25/e7/7c/25e77c49864e1509ba427b4adcb47078.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Homework 3</p>
+      <a href="https://amandawtl.github.io/homework3/">
+      <img src="http://vignette4.wikia.nocookie.net/universe-of-smash-bros-lawl/images/e/ee/Sulley_and_Mike.png/revision/latest?cb%5Cx3d20150720122933" class="img-responsive margin" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Homework 4</p>
+      <a href="https://amandawtl.github.io/homework4/">
+      <img src="https://s-media-cache-ak0.pinimg.com/236x/45/c5/45/45c545964174bcd90eb90492f9e7948e.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      </a>
+    </div>
+  </div>
+</div>
 
-<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1vE6e6PPyxFh9VeODMq4uP048GTSdAu9HzLONDDQsbrc/pubchart?oid=1742730145&amp;format=interactive"></iframe>
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Nice to meet you !</p> 
+</footer>
 
- <article>
-        <h1 style=font-family:impact;text-align:center><u> Week 4 Chart</u> </h1>
-        <section>
-            <h2> A chart by plain HTML/CSS </h2>
-            <div class="myfigure">
-                <div class="bar-block" style="width: 100px;"> 100 </div>
-                <div class="bar-block" style="width: 80px;"> 80 </div>
-                <div class="bar-block" style="width: 60px;"> 60 </div>
-                <div class="bar-block" style="width: 90px;"> 90 </div>
-                <div class="bar-block" style="width: 110px;"> 110 </div>
-                <div class="bar-block" style="width: 20px;"> 20 </div>
-            </div>
-        </section>
-    </article>
+</body>
+</html>
